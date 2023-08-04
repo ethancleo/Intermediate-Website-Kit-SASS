@@ -1,0 +1,49 @@
+---
+title: 'Practice Areas'
+description: 'Touchstone Law Firm specializes in property rights litigation and property law, serving North Louisiana.'
+preloadImg: '/assets/images/practice-areas.jpg'
+permalink: 'practice-areas/'
+eleventyNavigation:
+  key: Practice Areas
+  order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/practice-areas.css" />
+
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                 Hero                         -->
+<!-- ============================================ -->
+    
+    <section class="container hero">
+        <div class="overlay"></div>
+        <div class="grid hero">
+            <div class="grid-item">
+                <h1>Our Practice Areas</h1>
+                <p>Specializing in property rights litigation and property law in North Louisiana.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================ -->
+    <!--                 Content                      -->
+    <!-- ============================================ -->
+    <section class="container break">
+        <div class="grid center">
+            <div class="grid-item">
+                <h2>Property Rights Litigation</h2>
+                <p>We represent clients in disputes involving property rights, including boundary disputes, easements, adverse possession, and more. Our extensive knowledge of property rights litigation can provide the strategic advantage you need.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Property Law</h2>
+                <p>We provide comprehensive legal services for all aspects of property law, from purchase agreements to property management. Whether you are buying, selling, or managing property, we can provide the legal support you require.</p>
+            </div>
+        </div>
+    </section>
+    {% include "components/cta.html" %}
+
+{% endblock %}

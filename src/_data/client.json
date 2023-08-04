@@ -1,15 +1,15 @@
 {
-	"name": "Code Stitch Web Designs",
+	"name": "Touchstone Law Firm",
 	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"phoneForTel": "318-752-8080",
+	"phoneFormatted": "(318) 752-8080",
 	"address": {
-		"lineOne": "First Address Line",
+		"lineOne": "1361 Airline Dr",
 		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"city": "Bossier City",
+		"state": "LA",
+		"zip": "71112",
+		"mapLink": "https://goo.gl/maps/PgJnmXpiENcjo5im9"
 	},
 	"domain": "www.codestitch.app"
 }
